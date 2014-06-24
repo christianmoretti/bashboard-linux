@@ -479,7 +479,7 @@ dashboard.getBandwidth = function () {
     refreshIcon.addClass('icon-spin');
 
     $.ajax({
-        url: 'sh/bandwidth.php',
+        url: '/actions/bandwidth',
         cache: false,
         dataType: 'json',
         success: function (data) {

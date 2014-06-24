@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  get 'actions/bandwidth'
+
   get 'dashboard/index'
+
+  get 'actions/bandwidth'
+
+  get 'actions/df'
+
+  get 'actions/hostname'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
