@@ -34,7 +34,7 @@ class ActionsController < ApplicationController
 
 
   def hostname
-    render text: `/bin/hostname -f`
+    render text: `/bin/hostname`
   end
 
 
